@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae4d9afee1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="Neilambuj..png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Programmer</p>
+            <h1>Hi,I'm<span> Neilambuj</span> Patel</h1>
+        </div>
+    </div>
+    </div>
+    <!-- --------------about------------------ -->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_5958_auto_x2.jpg" height="500px" width="500px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Neilambuj Patel and I am a second-year student at LNCT University pursuing a Bachelor of Technology in Computer Science with specialization in Artificial Intelligence and Machine Learning
+
+                        I am passionate about exploring the latest technologies and innovations in the field of AI and using them to solve real-world problems. Through my coursework, I have gained hands-on experience in programming languages such as C , C++ and DSA as well as in data analysis.
+                        
+                        Apart from my academic pursuits, I enjoy staying up to date with the latest developments in the industry and participating in various hackathons and coding competitions. I believe that continuous learning and collaboration are essential in this field, and I am always eager to network with like-minded individuals and expand my knowledge and skills.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Designing</span><br>Graphic Designing.</li>
+                        <li><span>Development</span><br>Web Development.</li>
+                        <!-- <li><span>xxx</span><br>xxx</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Programming in C++ Language with DSA</li>
+                        <li><span>2023</span><br>Web Developer at Prodigy (Intern)</li>
+                        <!-- <li><span>xxx</span><br>xxx</li> -->
+                    </ul>
+                </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Second Year Student at LNCT University</li>
+                            <li><span>2021</span><br>10+2 from Wonder International School</li>
+                            <!-- <li><span>xxx</span><br>xxx</li> -->
+                        </ul>
+                    </div>
+              </div>
+            </div>
+        </div>
+   </div>
+<!-- --------------------services----------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Designing</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis ipsa mollitia, debitis necessitatibus aliquam, vero est voluptatum voluptates voluptas exercitationem cumque soluta nisi autem reiciendis delectus quisquam numquam, et hic?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h2>Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis ipsa mollitia, debitis necessitatibus aliquam, vero est voluptatum voluptates voluptas exercitationem cumque soluta nisi autem reiciendis delectus quisquam numquam, et hic?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis ipsa mollitia, debitis necessitatibus aliquam, vero est voluptatum voluptates voluptas exercitationem cumque soluta nisi autem reiciendis delectus quisquam numquam, et hic?</p>
+                    <a href="#">Learn more</a>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------------portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="car-designing.jpg">
+                <div class="layer">
+                <h3>Designing</h3>
+                <p>Graphic design is a creative discipline that combines art and technology to communicate messages visually. Designers use various tools and techniques to create compelling visuals, from logos and brochures to web graphics and advertisements. Effective graphic design is essential for branding, marketing, and conveying information in a visually appealing manner.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="web-develop.jpg">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>Web development is the process of creating and maintaining websites and web applications. It involves various technologies and skills, including HTML, CSS, JavaScript, and server-side programming languages. Web developers design user interfaces, ensure functionality, and optimize performance to deliver seamless online experiences across desktop and mobile devices.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="codingg.png">
+                <div class="layer">
+                    <h3>Programming</h3>
+                    <p>Programming is the art of giving instructions to computers through a specialized language. It empowers developers to create software, applications, and websites that shape our digital world. Programming languages like Python, Java, and C++ provide the tools to solve complex problems, automate tasks, and innovate across various industries.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ---------------------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> neilambuj09@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9302505906</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/neilambuj-patel-60147926b"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/neilpatel09?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Resume SECOND.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Neilambuj Patel. </p>
+    </div>
+</div>
+
+
+
+    <script>  
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+
+   </script> 
+
+   <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwJ0-4KjDKmO_jO0x735hBdKRSFnjP6U_5lIVR1paCz8nSKa3ExVeWOTJqRllXo1IVj0g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
